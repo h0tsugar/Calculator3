@@ -91,16 +91,16 @@ public class Main {
     public static int convert(String a) {
         int result = 0;
         switch (a) {
-            case "I" : result = 1;
-            case "II" : result = 2;
-            case "III" : result = 3;
-            case "IV" : result = 4;
-            case "V" : result = 5;
-            case "VI" : result = 6;
-            case "VII" : result = 7;
-            case "VIII" : result = 8;
-            case "IX" : result = 9;
-            case "X" : result = 10;
+            case "I" -> result = 1;
+            case "II" -> result = 2;
+            case "III" -> result = 3;
+            case "IV" -> result = 4;
+            case "V" -> result = 5;
+            case "VI" -> result = 6;
+            case "VII" -> result = 7;
+            case "VIII" -> result = 8;
+            case "IX" -> result = 9;
+            case "X" -> result = 10;
         }
         return result;
     }}
